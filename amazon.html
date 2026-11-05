@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon Style Website</title>
+
+    <link rel="stylesheet" href="Hello.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="navbar">
+
+            <a href="#" class="nav-logo">
+                <div class="logo"></div>
+            </a>
+
+            <div class="nav-address">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-map-market-alt"></i>
+                    <p class="add-sec">India</p>
+                </div>
+            </div>
+
+            <form class="nav-search" onsubmit="event.preventDefault();">
+                <select class="search-select" aria-label="Category">
+                    <option>All</option>
+                    <option>Fashion</option>
+                    <option>Electronics</option>
+                    <option>Books</option>
+                </select>
+
+                <input type="search" class="search-input"
+                    placeholder="Search products..." aria-label="Search products">
+
+                <button class="search-icon" type="submit" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+
+            <div class="nav-signin">
+                <p>Hello, sign out</p>
+                <strong><a href="registration.html">Create Account</a></strong>
+            </div>
+
+            <div class="nav-returns">
+                <p>Returns</p>
+                <strong>&amp; Orders</strong>
+            </div>
+
+            <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <strong>Cart</strong>
+            </div>
+
+        </div>
+
+        <!-- CATEGORY PANEL -->
+        <nav class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i> All
+            </div>
+
+            <div class="panel-ops">
+                <a href="#products">Deals</a>
+                <a href="#footer">Customer </a>
+                <a href="#products">Service</a>
+                <a href="#products">Gift </a>
+                <a href="#products">Cards </a>
+                <a href="#footer">Sell</a>
+            </div>
+
+            <div class="panel-deals">Shop Deals in Electronic</div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main>
+        <section class="hero-section">
+            <div class="hero-msg">
+                <p>You are an amazon.com, You can also shop on amazon India for millions of products with fast local delivery.</p>
+                <a  class="hero-msg-a" href="#">Click here to go to amazon.in</a>
+            </div>
+        </section>
+
+        <!-- PRODUCTS -->
+        <section class="shop-section" id="products">
+
+            <article class="box">
+                <div class="box-content">
+                    <h2>Clothes</h2>
+                    <div class="box-image" style="background-image:url('img.jpg')"></div>
+                    <a href="#">See more</a>
+                </div>
+            </article>
+
+            <article class="box">
+                <div class="box-content">
+                    <h2>Beauty Care Women</h2>
+                    <div class="box-image" style="background-image:url('img4.avif')"></div>
+                    <a href="#">See more</a>
+                </div>
+            </article>
+
+            <article class="box">
+                <div class="box-content">
+                    <h2>Men's grooming product</h2>
+                    <div class="box-image" style="background-image:url('img3.png')"></div>
+                    <a href="#">See more</a>
+                </div>
+            </article>
+
+            <article class="box">
+                <div class="box-content">
+                    <h2>Healthy Fresh vegetables</h2>
+                    <div class="box-image" style="background-image:url('img2.webp')"></div>
+                    <a href="#">See more</a>
+                </div>
+            </article>
+
+            <article class="box">
+                <div class="box-content">
+                    <h2>Healthy & fresh fruits</h2>
+                    <div class="box-image" style="background-image:url('img1.jpg')"></div>
+                    <a href="#">See more</a>
+                </div>
+            </article>
+
+            <article class="box">
+                <div class="box-content">
+                    <h2>Health & madicine</h2>
+                    <div class="box-image" style="background-image:url('img5.jpg')"></div>
+                    <a href="#">See more</a>
+                </div>
+            </article>
+
+            <article class="box">
+                <div class="box-content">
+                    <h2>Electronic products</h2>
+                    <div class="box-image" style="background-image:url('img6.webp')"></div>
+                    <a href="#">See more</a>
+                </div>
+            </article>
+
+            <article class="box">
+                <div class="box-content">
+                    <h2>Toys</h2>
+                    <div class="box-image" style="background-image:url('img7.webp')"></div>
+                    <a href="#">See more</a>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+
+        <a href="#" class="foot-panel">Back to top</a>
+
+        <div class="foot-panel2">
+            <div>
+                <h3>Get to Know Us</h3>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Invertor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </div>
+
+            <div>
+                <h3>Make Money with Us</h3>
+                <a href="#">Sell Product Amazon</a>
+                <a href="#">Sell apps on Amazon</a>
+                <a href="#">Advertice Your Product</a>
+                <a href="#">Host an Amazon Hub</a>
+            </div>
+
+            <div>
+                <h3>Amazon Payment Products</h3>
+                <a href="#">Amazon Business Card</a>
+                <a href="#">Shop with Points </a>
+                <a href="#">Reload Your Balance</a>
+            </div>
+
+            <div>
+                <h3>Let Us Help You</h3>
+                <a href="#">Amazon and COVID 19</a>
+                <a href="#">Returns & Replacement</a>
+                <a href="#">Your Account</a>
+                <a href="#">Your Order</a>
+                <a href="#">Helps</a>
+            </div>
+        </div>
+
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+
+        <div class="foot-panel4">
+            <p>Conditions of Use | Privacy Notice | Privacy Choices</p>
+            <p>© 2026 Amazon-style demo website</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
