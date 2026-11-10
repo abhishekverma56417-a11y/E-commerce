@@ -1,2 +1,3 @@
 # E-commerce
-amazon clone , and affiliated by E-commerce website  
+amazon clone , and affiliated by E-commerce 
+website  
